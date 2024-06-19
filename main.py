@@ -21,8 +21,7 @@ if __name__ == "__main__":
 
     train_dataloader = DataLoader(dataset=train_dataset,
                                 batch_size=BATCH_SIZE,
-                                shuffle=True)
-    val_dataloader = DataLoader(dataset=val_dataset,
+
                                 batch_size=BATCH_SIZE,
                                 shuffle=True)
 
